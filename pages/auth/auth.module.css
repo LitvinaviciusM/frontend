@@ -1,0 +1,106 @@
+.container {
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  min-width: 15rem;
+  padding: 30px;
+  z-index: 1;
+}
+
+.cta {
+  cursor: pointer;
+  outline: none;
+}
+
+.ctaInstagram {
+  background-image: linear-gradient(
+    rgb(81, 91, 212), 
+    rgb(129, 52, 175),
+    rgb(221, 42, 123),
+    rgb(254, 218, 119),
+    rgb(245, 133, 41)
+  );
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.ctaFacebook {
+  background-image: radial-gradient(
+    rgb(255, 255, 255) 35%,
+    rgb(59, 89, 152) 50%
+  );
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.ctaEmail {
+  margin-top: 0.5rem;
+}
+
+.ctaSvg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.ctaTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.ctaContainer {
+  margin-bottom: 2rem;
+}
+
+.bg {
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.form {
+  margin-top: 0.5rem;
+}
+
+.linkContainer {
+  margin-top: 1rem;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.input {
+  border: none;
+  border-radius: 0.5rem;
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+  outline: none;
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.input::placeholder {
+  color: rgb(0, 0, 0, 0.5);
+}
